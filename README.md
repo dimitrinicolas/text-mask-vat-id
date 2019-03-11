@@ -50,7 +50,7 @@ export default () => (
 
   vanillaTextMask.maskInput({
     inputElement: document.getElementById('vat-input'),
-    mask: generateVatIdMask(),
+    mask: createVatIdMask(),
     pipe: upperCasePipe
   });
 });
