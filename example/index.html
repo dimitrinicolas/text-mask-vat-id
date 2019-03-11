@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>text-mask-vat-id demo</title>
+</head>
+
+<body>
+  <h1>text-mask-vat-id demo</h1>
+
+  <h2>Default options</h2>
+
+  <input id="default-input" type="text" placeholder="VAT identification number">
+
+  <h2>localeFormat = true</h2>
+
+  <input id="locale-format-input" type="text" placeholder="VAT identification number">
+
+  <h2>Test values</h2>
+
+  <ul>
+    <li>ATU23456789</li>
+    <li>BE0123456789</li>
+    <li>BG1234567890</li>
+    <li>HR12345678901</li>
+    <li>CY12345678X</li>
+    <li>CZ1234567890123</li>
+    <li>DK12345678</li>
+    <li>EE123456789</li>
+    <li>FI12345678</li>
+    <li>FRXX345678901</li>
+    <li>DE123456789</li>
+    <li>EL012345678</li>
+    <li>GR012345678</li>
+    <li>HU12345678</li>
+    <li>IE1X34567X</li>
+    <li>IT12345678901</li>
+    <li>LV12345678901</li>
+    <li>LT123456789012</li>
+    <li>LU12345678</li>
+    <li>MT12345678</li>
+    <li>NL123456789B12</li>
+    <li>PL1234567890</li>
+    <li>PT123456789</li>
+    <li>RO1234567890</li>
+    <li>SK1234567890</li>
+    <li>SI12345678</li>
+    <li>ESX2345678X</li>
+    <li>SE123456789001</li>
+    <li>GB999999973</li>
+    <li>ALJ12345678X</li>
+    <li>AU12345678901</li>
+    <li>BY123456789</li>
+    <li>CA123456789</li>
+    <li>IS123456</li>
+    <li>IN12345678901V</li>
+    <li>ID123456789012345</li>
+    <li>IL123456789</li>
+    <li>NZ1234567890123</li>
+    <li>NO123456789MVA</li>
+    <li>PH123456789012</li>
+    <li>RU123456789012</li>
+    <li>SM12345</li>
+    <li>RS123456789</li>
+    <li>CH123456789TVA</li>
+    <li>TR1234567890</li>
+    <li>UA1234567890</li>
+    <li>UZ123456789</li>
+    <li>AR12345678901</li>
+    <li>BO1234567</li>
+    <li>BR12345678901234</li>
+    <li>CL123456789</li>
+    <li>CO1234567890</li>
+    <li>CR123456789012</li>
+    <li>EC1234567890123</li>
+    <li>SV1234010199901234</li>
+    <li>GT12345678</li>
+    <li>HNXXXXXXXX</li>
+    <li>MX1234567890123</li>
+    <li>NI1234567890123X</li>
+    <li>PAXXXXXXXX</li>
+    <li>PY1234567</li>
+    <li>PE12345678901</li>
+    <li>DO12345678901</li>
+    <li>UY123456789012</li>
+    <li>VEJ123456789</li>
+  </ul>
+
+  <script src="vendor/vanillaTextMask.js"></script>
+  <script src="../dist/text-mask-vat-id.umd.min.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      function upperCasePipe(value) {
+        return value.toUpperCase();
+      }
+
+      vanillaTextMask.maskInput({
+        inputElement: document.getElementById('default-input'),
+        mask: generateVatIdMask(),
+        guide: false,
+        pipe: upperCasePipe
+      });
+
+      vanillaTextMask.maskInput({
+        inputElement: document.getElementById('locale-format-input'),
+        mask: generateVatIdMask({
+          localeFormat: true
+        }),
+        guide: false,
+        pipe: upperCasePipe
+      });
+    });
+  </script>
+</body>
+
+</html>

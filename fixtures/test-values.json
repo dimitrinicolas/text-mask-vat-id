@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ATU23456789",
+    "formatedResult": "AT U23456789"
+  },
+  {
+    "id": "BE0123456789",
+    "formatedResult": "BE 0123 456 789"
+  },
+  {
+    "id": "BG1234567890",
+    "formatedResult": "BG 1234567890"
+  },
+  {
+    "id": "HR12345678901",
+    "formatedResult": "HR 12345678901"
+  },
+  {
+    "id": "CY12345678X",
+    "formatedResult": "CY 12345678X"
+  },
+  {
+    "id": "CZ1234567890123",
+    "formatedResult": "CZ 1234567890123"
+  },
+  {
+    "id": "DK12345678",
+    "formatedResult": "DK 12 34 56 78"
+  },
+  {
+    "id": "EE123456789",
+    "formatedResult": "EE 123456789"
+  },
+  {
+    "id": "FI12345678",
+    "formatedResult": "FI 12345678"
+  },
+  {
+    "id": "FRXX345678901",
+    "formatedResult": "FR XX 345 678 901"
+  },
+  {
+    "id": "DE123456789",
+    "formatedResult": "DE 123456789"
+  },
+  {
+    "id": "EL012345678",
+    "formatedResult": "EL 012345678"
+  },
+  {
+    "id": "GR012345678",
+    "formatedResult": "GR 012345678"
+  },
+  {
+    "id": "HU12345678",
+    "formatedResult": "HU 12345678"
+  },
+  {
+    "id": "IE1X34567X",
+    "formatedResult": "IE 1X34567X"
+  },
+  {
+    "id": "IT12345678901",
+    "formatedResult": "IT 12345678901"
+  },
+  {
+    "id": "LV12345678901",
+    "formatedResult": "LV 12345678901"
+  },
+  {
+    "id": "LT123456789012",
+    "formatedResult": "LT 123456789012"
+  },
+  {
+    "id": "LU12345678",
+    "formatedResult": "LU 12345678"
+  },
+  {
+    "id": "MT12345678",
+    "formatedResult": "MT 12345678"
+  },
+  {
+    "id": "NL123456789B12",
+    "formatedResult": "NL 123456789B12"
+  },
+  {
+    "id": "PL1234567890",
+    "formatedResult": "PL 123 456 78 90"
+  },
+  {
+    "id": "PT123456789",
+    "formatedResult": "PT 123456789"
+  },
+  {
+    "id": "RO1234567890",
+    "formatedResult": "RO 1234567890"
+  },
+  {
+    "id": "SK1234567890",
+    "formatedResult": "SK 1234567890"
+  },
+  {
+    "id": "SI12345678",
+    "formatedResult": "SI 12345678"
+  },
+  {
+    "id": "ESX2345678X",
+    "formatedResult": "ES X2345678X"
+  },
+  {
+    "id": "SE123456789001",
+    "formatedResult": "SE 123456789001"
+  },
+  {
+    "id": "GB999999973",
+    "formatedResult": "GB 999999973"
+  },
+  {
+    "id": "ALJ12345678X",
+    "formatedResult": "AL J12345678X"
+  },
+  {
+    "id": "AU12345678901",
+    "formatedResult": "AU 12 345678901"
+  },
+  {
+    "id": "BY123456789",
+    "formatedResult": "BY 123456789"
+  },
+  {
+    "id": "CA123456789",
+    "formatedResult": "CA 123456789"
+  },
+  {
+    "id": "IS123456",
+    "formatedResult": "IS 123456"
+  },
+  {
+    "id": "IN12345678901V",
+    "formatedResult": "IN 12345678901V"
+  },
+  {
+    "id": "ID123456789012345",
+    "formatedResult": "ID 12.345.678-9.012.345"
+  },
+  {
+    "id": "IL123456789",
+    "formatedResult": "IL 123456789"
+  },
+  {
+    "id": "NZ1234567890123",
+    "formatedResult": "NZ 1234567890123"
+  },
+  {
+    "id": "NO123456789MVA",
+    "formatedResult": "NO 123456789MVA"
+  },
+  {
+    "id": "PH123456789012",
+    "formatedResult": "PH 123 456 789 012"
+  },
+  {
+    "id": "RU123456789012",
+    "formatedResult": "RU 123456789012"
+  },
+  {
+    "id": "SM12345",
+    "formatedResult": "SM 12345"
+  },
+  {
+    "id": "RS123456789",
+    "formatedResult": "RS 123456789"
+  },
+  {
+    "id": "CH123456789TVA",
+    "formatedResult": "CH-123.456.789 TVA"
+  },
+  {
+    "id": "TR1234567890",
+    "formatedResult": "TR 1234567890"
+  },
+  {
+    "id": "UA1234567890",
+    "formatedResult": "UA 1234567890"
+  },
+  {
+    "id": "UZ123456789",
+    "formatedResult": "UZ 123456789"
+  },
+  {
+    "id": "AR12345678901",
+    "formatedResult": "AR 12345678901"
+  },
+  {
+    "id": "BO1234567",
+    "formatedResult": "BO 1234567"
+  },
+  {
+    "id": "BR12345678901234",
+    "formatedResult": "BR 12.345.678/9012-34"
+  },
+  {
+    "id": "CL123456789",
+    "formatedResult": "CL 12.345.678-9"
+  },
+  {
+    "id": "CO1234567890",
+    "formatedResult": "CO 123456789 0"
+  },
+  {
+    "id": "CR123456789012",
+    "formatedResult": "CR 123456789012"
+  },
+  {
+    "id": "EC1234567890123",
+    "formatedResult": "EC 1234567890123"
+  },
+  {
+    "id": "SV12340101991234",
+    "formatedResult": "SV 1234-010199-123-4"
+  },
+  {
+    "id": "GT12345678",
+    "formatedResult": "GT 1234567-8"
+  },
+  {
+    "id": "HNXXXXXXXX",
+    "formatedResult": "HN XXXXXXXX"
+  },
+  {
+    "id": "MX1234567890123",
+    "formatedResult": "MX 1234567890123"
+  },
+  {
+    "id": "NI1234567890123X",
+    "formatedResult": "NI 123-456789-0123X"
+  },
+  {
+    "id": "PAXXXXXXXX",
+    "formatedResult": "PA XXXXXXXX"
+  },
+  {
+    "id": "PY1234567",
+    "formatedResult": "PY 123456-7"
+  },
+  {
+    "id": "PE12345678901",
+    "formatedResult": "PE 12345678901"
+  },
+  {
+    "id": "DO12345678901",
+    "formatedResult": "DO 12345678901"
+  },
+  {
+    "id": "UY123456789012",
+    "formatedResult": "UY 123456789012"
+  },
+  {
+    "id": "VEJ123456789",
+    "formatedResult": "VE J-123456789"
+  }
+]
