@@ -1,5 +1,7 @@
 # text-mask-vat-id
 
+Text Mask function for VAT identification number.
+
 ## [Example](https://dimitrinicolas.github.io/text-mask-vat-id/example/)
 
 Demo available here: [dimitrinicolas.github.io/text-mask-vat-id/example](https://dimitrinicolas.github.io/text-mask-vat-id/example/)
