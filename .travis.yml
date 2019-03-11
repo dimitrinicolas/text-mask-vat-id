@@ -6,6 +6,17 @@ node_js:
 
 install:
   - npm install
+  - npm install -g codecov
+
+before_script:
+  - npm run build
+
+script:
+  - npm test
+
+after_success:
+  - npm run coverage
+  - codecov
 
 # Telegram bot
 notifications:
