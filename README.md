@@ -2,7 +2,7 @@
 
 ## [Example](https://dimitrinicolas.github.io/text-mask-vat-id/demo/)
 
-Demo available here: [dimitrinicolas.github.io/text-mask-vat-id/demo](https://dimitrinicolas.github.io/text-mask-vat-id///)
+Demo available here: [dimitrinicolas.github.io/text-mask-vat-id/demo](https://dimitrinicolas.github.io/text-mask-vat-id/demo/)
 
 ## Installation
 
