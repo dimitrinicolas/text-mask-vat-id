@@ -1,4 +1,4 @@
-# text-mask-vat-id
+# text-mask-vat-id [![Build Status][travis badge]][travis link] [![Coverage Status][coveralls badge]][coveralls link]
 
 Text Mask function for VAT identification number.
 
@@ -8,7 +8,7 @@ Demo available here: [dimitrinicolas.github.io/text-mask-vat-id/example](https:/
 
 ## Installation
 
-```console
+```bash
 npm i text-mask-vat-id
 ```
 
@@ -97,3 +97,8 @@ npm test
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
+
+[travis badge]: https://travis-ci.org/dimitrinicolas/text-mask-vat-id.svg?branch=master
+[travis link]: https://travis-ci.org/dimitrinicolas/text-mask-vat-id
+[coveralls badge]: https://coveralls.io/repos/github/dimitrinicolas/text-mask-vat-id/badge.svg?branch=master
+[coveralls link]: https://coveralls.io/github/dimitrinicolas/text-mask-vat-id?branch=master
