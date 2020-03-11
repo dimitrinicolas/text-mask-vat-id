@@ -1,6 +1,6 @@
 {
   "name": "text-mask-vat-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Text mask for VAT identification number",
   "main": "dist/text-mask-vat-id.cjs.js",
   "module": "dist/text-mask-vat-id.esm.js",
