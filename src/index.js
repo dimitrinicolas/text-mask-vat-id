@@ -11,7 +11,7 @@ const SEPARATORS = [' ', '-', '.', '/'];
 /**
  * Country Code Text Mask.
  */
-const COUNTRY_CODE_MASK = [/\w/, /\w/];
+const COUNTRY_CODE_MASK = [/[A-Za-z]/, /[A-Za-z]/];
 
 /**
  * Generate a flexible VAT Text Mask.
