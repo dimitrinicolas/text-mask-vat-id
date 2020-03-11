@@ -98,14 +98,14 @@
 
       vanillaTextMask.maskInput({
         inputElement: document.getElementById('default-input'),
-        mask: generateVatIdMask(),
+        mask: createVatIdMask(),
         guide: false,
         pipe: upperCasePipe
       });
 
       vanillaTextMask.maskInput({
         inputElement: document.getElementById('locale-format-input'),
-        mask: generateVatIdMask({
+        mask: createVatIdMask({
           localeFormat: true
         }),
         guide: false,

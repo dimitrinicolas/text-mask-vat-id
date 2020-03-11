@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
-  (global = global || self, global.generateVatIdMask = factory());
+  (global = global || self, global.createVatIdMask = factory());
 }(this, function () { 'use strict';
 
   function _defineProperty(obj, key, value) {
@@ -73,25 +73,25 @@
    * Country Code Text Mask.
    */
 
-  var COUNTRY_CODE_MASK = [/\w/, /\w/];
+  var COUNTRY_CODE_MASK = [/[A-Za-z]/, /[A-Za-z]/];
   /**
    * Generate a flexible VAT Text Mask.
    * @param {string} value Input typed value to mask.
    */
 
-  var generateFluidMask = function generateFluidMask() {
-    var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
+  var generateFluidMask = function generateFluidMask(value) {
     return [].concat(COUNTRY_CODE_MASK, [' '], _toConsumableArray(Array(Math.max(value.length - 3, 0) + 1).fill(/\w|\d/)));
   };
   /**
    * Generate country, locale fomated text mask.
    * @param {string} countryCode Country code.
-   * @param {string} value Input typed value to mask.
+   * @param {string} [value=] Input typed value to mask.
    * @returns {Regex[]}
    */
 
 
-  var generateCountryVatIdMask = function generateCountryVatIdMask(countryCode, value) {
+  var generateCountryVatIdMask = function generateCountryVatIdMask(countryCode) {
+    var value = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
     var defaultTextMask = generateFluidMask(value);
 
     switch (countryCode) {
@@ -572,7 +572,7 @@
    */
 
 
-  var generateVatIdMask = function generateVatIdMask() {
+  var createVatIdMask = function createVatIdMask() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
     var _DEFAULT_OPTIONS$opti = _objectSpread({}, DEFAULT_OPTIONS, options),
@@ -600,6 +600,6 @@
     };
   };
 
-  return generateVatIdMask;
+  return createVatIdMask;
 
 }));

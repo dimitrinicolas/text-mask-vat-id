@@ -12,17 +12,30 @@ const localeMask = createVatIdMask({ localeFormat: true });
 values.forEach(({ id, formatedResult }) => {
   test(id, t => {
     t.is(conformToMask(id, defaultMask, { guide: false }).conformedValue, id);
-    t.is(conformToMask(id, localeMask, { guide: false }).conformedValue, formatedResult);
+    t.is(
+      conformToMask(id, localeMask, { guide: false }).conformedValue,
+      formatedResult
+    );
   });
 });
 
 test('unknow country', t => {
   const id = 'XX999X';
   t.is(conformToMask(id, defaultMask, { guide: false }).conformedValue, id);
-  t.is(conformToMask(id, localeMask, { guide: false }).conformedValue, 'XX 999X');
+  t.is(
+    conformToMask(id, localeMask, { guide: false }).conformedValue,
+    'XX 999X'
+  );
 });
+
 test('one letter', t => {
   const id = 'X';
   t.is(conformToMask(id, defaultMask, { guide: false }).conformedValue, id);
   t.is(conformToMask(id, localeMask, { guide: false }).conformedValue, id);
+});
+
+test('non country start', t => {
+  const id = '012345';
+  t.is(conformToMask(id, defaultMask, { guide: false }).conformedValue, '');
+  t.is(conformToMask(id, localeMask, { guide: false }).conformedValue, '');
 });
